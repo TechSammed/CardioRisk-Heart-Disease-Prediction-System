@@ -80,14 +80,13 @@ The application is deployed using Streamlit Cloud and can be accessed via a publ
 
 ##📂 Project Structure
 CardioRisk/
-│
-├── app.py
-├── train_model.py
-├── heart_clean.csv
-├── requirements.txt
-├── README.md
-├── data_preprocess.ipynb
+├── app.py # Streamlit web application
+├── train_model.py # Model training and evaluation script
+├── data_preprocess.ipynb # EDA and data preprocessing
+├── heart_clean.csv # Cleaned dataset
+├── requirements.txt # Project dependencies
+├── README.md # Project documentation
+├── .gitignore # Ignored files and folders
 └── model/
-    └── heart_model.pkl
-
+└── heart_model.pkl # Trained Random Forest model
 
