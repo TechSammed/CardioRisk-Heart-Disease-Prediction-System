@@ -1,0 +1,16 @@
+# Virtual environment
+ml_proj/
+
+# VS Code settings
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+#raw data
+heart.csv
