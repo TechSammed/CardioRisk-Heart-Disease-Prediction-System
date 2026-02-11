@@ -42,6 +42,39 @@ This project aims to build a **machine learning–based risk prediction system**
   - Confusion Matrix
   - ROC-AUC Score
 
+## 📊 Model Performance
+
+```✅ Accuracy
+Accuracy: 0.8369 (83.7%)
+```
+
+### 📈 Classification Report
+Class	Precision	Recall	F1-Score	Support
+0 (No Risk)	0.82	0.80	0.81	82
+1 (Risk)	0.85	0.86	0.85	102
+
+ROC-AUC Score: 0.9208
+
+A ROC-AUC score above 0.90 indicates excellent class separability.
+
+### 🔍 Confusion Matrix
+```
+[[66 16]
+ [14 88]]
+```
+
+### Interpretation:
+
+True Negatives (66): Correctly predicted no-risk cases
+
+False Positives (16): Predicted risk but actually no risk
+
+False Negatives (14): Missed actual risk cases
+
+True Positives (88): Correctly predicted risk cases
+
+The model maintains a strong balance between sensitivity (recall) and precision.
+
 The model achieved strong performance with an ROC-AUC score above **0.90**, indicating good class separation.
 
 ---
