@@ -49,9 +49,13 @@ Accuracy: 0.8369 (83.7%)
 ```
 
 ### 📈 Classification Report
-Class	Precision	Recall	F1-Score	Support
-0 (No Risk)	0.82	0.80	0.81	82
-1 (Risk)	0.85	0.86	0.85	102
+## 📈 Classification Report
+
+| Class        | Precision | Recall | F1-Score | Support |
+|--------------|----------|--------|----------|---------|
+| 0 (No Risk)  | 0.82     | 0.80   | 0.81     | 82      |
+| 1 (Risk)     | 0.85     | 0.86   | 0.85     | 102     |
+
 
 ROC-AUC Score: 0.9208
 
